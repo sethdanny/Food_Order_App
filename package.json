@@ -4,8 +4,9 @@
   "description": "Food Order App Backend",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"  
   },
   "keywords": [],
   "author": "",
